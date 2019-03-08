@@ -55,7 +55,7 @@ To provide enough storage for multiple workspaces, I am setting the size of this
 These parameters are passed via `config.yaml` file that you get along with the deploy script. 
 
 ```
-$ sed -i.bak -e "s/CHE_INFRA_KUBERNETES_PVC_QUANTITY: \"\"/CHE_INFRA_KUBERNETES_PVC_QUANTITY: \"5Gi\"/" config.yaml 
+$ sed -i '/CHE_INFRA_KUBERNETES_PVC_QUANTITY/s/""/"5Gi"/' config.yaml 
 ```
 Run the installer with the command `$ ./deploy.sh --deploy --project=wrkspc` and observe the output. The installer spins up an operator that does the installation of CodeReady Workspace Master, Keycloak server and the backend Postgresql database.
 
