@@ -7,7 +7,7 @@ We will use Launcher to generate code for our microservice.
 
 * You either have OpenShift Online Pro account or an OpenShift cluster of your own. The Launcher can be used in [http://developers.redhat.com/launch](http://developers.redhat.com/launch) by signing in with Red Hat Developers Account with OpenShift Online Pro and GitHub Accounts.
 
-* If using your own OpenShift cluster, you have deployed Launcher as discussed [here](). Your credentials are configured with the Keycloak server and Git Repo has been configured to work with the Launcher via Keycloak.
+* If using your own OpenShift cluster, you have deployed Launcher as discussed [here](./InstallLauncherOnOpenShift.md). Your credentials are configured with the Keycloak server and Git Repo has been configured to work with the Launcher via Keycloak.
 
 
 ### Invoke Launcher 

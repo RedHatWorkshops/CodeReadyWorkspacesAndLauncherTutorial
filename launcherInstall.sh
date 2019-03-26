@@ -1,8 +1,8 @@
 #!/bin/bash
 
 BASE="https://raw.githubusercontent.com/fabric8-launcher/launcher-openshift-templates/master"
-#PROPS=$(curl -s $BASE/released.properties)
-PROPS=$(curl -s https://raw.githubusercontent.com/fabric8-launcher/launcher-openshift-templates/22aea3364f3263b5e1259d1bf123dfac725e17e1/released.properties)
+PROPS=$(curl -s $BASE/released.properties)
+#PROPS=$(curl -s https://raw.githubusercontent.com/fabric8-launcher/launcher-openshift-templates/22aea3364f3263b5e1259d1bf123dfac725e17e1/released.properties)
 PARAMS=""
 
 for p in $PROPS; do
