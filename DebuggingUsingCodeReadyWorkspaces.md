@@ -18,7 +18,7 @@ You will notice that this will change the view to Java view as below. You may ha
 
 ### Add Debug Maven Command
 
-We will use the same approach like how we added the 
+We will use the same approach like how we added the `build and run` command earlier
 
 * Switch to command view on the project explorer
 * Click on the `+` symbol next to `Debug` and select `Maven` type

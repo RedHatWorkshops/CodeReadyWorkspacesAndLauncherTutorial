@@ -1,6 +1,6 @@
 ## Creating Factory
 
-So far we created a workspace in CodeReady Workspaces with certain stack, imported code, and configured our workspace with maven configuration, added maven commands for `build and run` and `debug`, added remote debug configuration etc. This is some good amount of work and expecting every developer on the team that is working on our project/code is both time consuming and error prone. Onboarding developers has always been a challenge. 
+So far we created a workspace in CodeReady Workspaces with a certain stack, imported code, and configured our workspace with maven configuration, added maven commands for `build and run` and `debug`, added remote debug configuration etc. This is some good amount of work and expecting that setup from every developer on the team that is working on our project/code is both time consuming and error prone. Onboarding developers has always been a challenge. 
 
 How about a simple link that can be shared with our team members so that this configuration can be repeated? 
 
