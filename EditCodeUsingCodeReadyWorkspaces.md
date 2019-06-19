@@ -32,7 +32,7 @@ Let us create a new Workspace.
 * **RAM:** You can choose the RAM size for the dev-machine. We can leave the default `2GB`
 * **Projects:** Click on `Add or Import Project`. Choose `Git` option and paste the URL for the GitRepo where your code was created by the Launcher.
 ![](./images/2.CodeReady.png)
-* Create on the `Create and Open` button. This will start launching a new workspace.
+* Click on the `Create and Open` button. This will start launching a new workspace.
 
 ![](./images/3.CodeReady.png)
 
