@@ -32,11 +32,12 @@ the steps to create a backend application as detailed in [Using Launcher to gene
 
 3. After configuring the project in Launcher, click the `Download` button
 
-4. In your personal GitHub account, create a repository with the code you downloaded
+4. In your personal GitHub account, create a repository with the code you downloaded. You will check out this git repository
+to CodeReady Workspaces in the next lab
 
 5. Optionally, if you have access to an OpenShift cluster, deploy the code from the repo you just created using the Java S2I
 image
 
-6. Optionally, create a web hook in GitHub with the secret in the application build to trigger new builds on code push
+6. Optionally, create a web hook in GitHub with the secret provided in the OpenShift build to trigger new builds on code push
 
 7. Continue on with the next lab, [Editing code using CodeReady workspaces](EditCodeUsingCodeReadyWorkspaces.md)
